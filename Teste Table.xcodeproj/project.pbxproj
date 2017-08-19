@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49DAF2421F48B57500E14AC1 /* URLUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DAF2411F48B57500E14AC1 /* URLUtils.swift */; };
 		49E3CCB21F47B530007A749B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E3CCB11F47B530007A749B /* AppDelegate.swift */; };
 		49E3CCB41F47B530007A749B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E3CCB31F47B530007A749B /* ViewController.swift */; };
 		49E3CCB71F47B530007A749B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E3CCB51F47B530007A749B /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49DAF2411F48B57500E14AC1 /* URLUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLUtils.swift; sourceTree = "<group>"; };
 		49E3CCAE1F47B530007A749B /* Teste Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teste Table.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E3CCB11F47B530007A749B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49E3CCB31F47B530007A749B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				49E3CCC31F47BBFB007A749B /* TableController.swift */,
 				49E3CCC41F47BBFB007A749B /* TableController.xib */,
 				49E3CCC71F48928A007A749B /* UIView+Anchors.swift */,
+				49DAF2411F48B57500E14AC1 /* URLUtils.swift */,
 			);
 			path = "Teste Table";
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49DAF2421F48B57500E14AC1 /* URLUtils.swift in Sources */,
 				49E3CCC51F47BBFB007A749B /* TableController.swift in Sources */,
 				49E3CCB41F47B530007A749B /* ViewController.swift in Sources */,
 				49E3CCC81F48928A007A749B /* UIView+Anchors.swift in Sources */,
@@ -314,6 +318,7 @@
 				49E3CCC21F47B530007A749B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

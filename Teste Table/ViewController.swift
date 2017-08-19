@@ -38,15 +38,3 @@ struct Mapper {
         return albuns
     }
 }
-
-struct URLUtils {
-    public static func requestUrl(_ url: String, onFinish: @escaping (Data) -> Void) {
-        let url = URL(string: url)
-    
-        let task = URLSession.shared.dataTask(with: url!) {(data, response, error) in
-            onFinish(data!)
-        }
-        
-        task.resume()
-    }
-}
