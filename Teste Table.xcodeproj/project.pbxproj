@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49D0904B1F4A7C6E00B06257 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D0904A1F4A7C6E00B06257 /* Album.swift */; };
+		49D0904D1F4A7C9500B06257 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D0904C1F4A7C9500B06257 /* Mapper.swift */; };
+		49D0904F1F4A7CB400B06257 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D0904E1F4A7CB400B06257 /* AlbumCell.swift */; };
+		49D090511F4A7CE600B06257 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D090501F4A7CE600B06257 /* ModalView.swift */; };
 		49DAF2421F48B57500E14AC1 /* URLUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DAF2411F48B57500E14AC1 /* URLUtils.swift */; };
 		49E3CCB21F47B530007A749B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E3CCB11F47B530007A749B /* AppDelegate.swift */; };
 		49E3CCB41F47B530007A749B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E3CCB31F47B530007A749B /* ViewController.swift */; };
-		49E3CCB71F47B530007A749B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E3CCB51F47B530007A749B /* Main.storyboard */; };
 		49E3CCB91F47B530007A749B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E3CCB81F47B530007A749B /* Assets.xcassets */; };
 		49E3CCBC1F47B530007A749B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E3CCBA1F47B530007A749B /* LaunchScreen.storyboard */; };
 		49E3CCC51F47BBFB007A749B /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E3CCC31F47BBFB007A749B /* TableController.swift */; };
@@ -19,11 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49D0904A1F4A7C6E00B06257 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		49D0904C1F4A7C9500B06257 /* Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		49D0904E1F4A7CB400B06257 /* AlbumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		49D090501F4A7CE600B06257 /* ModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		49DAF2411F48B57500E14AC1 /* URLUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLUtils.swift; sourceTree = "<group>"; };
 		49E3CCAE1F47B530007A749B /* Teste Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teste Table.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E3CCB11F47B530007A749B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49E3CCB31F47B530007A749B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		49E3CCB61F47B530007A749B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49E3CCB81F47B530007A749B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49E3CCBB1F47B530007A749B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49E3CCBD1F47B530007A749B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,7 +70,6 @@
 			children = (
 				49E3CCB11F47B530007A749B /* AppDelegate.swift */,
 				49E3CCB31F47B530007A749B /* ViewController.swift */,
-				49E3CCB51F47B530007A749B /* Main.storyboard */,
 				49E3CCB81F47B530007A749B /* Assets.xcassets */,
 				49E3CCBA1F47B530007A749B /* LaunchScreen.storyboard */,
 				49E3CCBD1F47B530007A749B /* Info.plist */,
@@ -72,6 +77,10 @@
 				49E3CCC41F47BBFB007A749B /* TableController.xib */,
 				49E3CCC71F48928A007A749B /* UIView+Anchors.swift */,
 				49DAF2411F48B57500E14AC1 /* URLUtils.swift */,
+				49D0904A1F4A7C6E00B06257 /* Album.swift */,
+				49D0904C1F4A7C9500B06257 /* Mapper.swift */,
+				49D0904E1F4A7CB400B06257 /* AlbumCell.swift */,
+				49D090501F4A7CE600B06257 /* ModalView.swift */,
 			);
 			path = "Teste Table";
 			sourceTree = "<group>";
@@ -139,7 +148,6 @@
 				49E3CCC61F47BBFB007A749B /* TableController.xib in Resources */,
 				49E3CCBC1F47B530007A749B /* LaunchScreen.storyboard in Resources */,
 				49E3CCB91F47B530007A749B /* Assets.xcassets in Resources */,
-				49E3CCB71F47B530007A749B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,23 +160,19 @@
 			files = (
 				49DAF2421F48B57500E14AC1 /* URLUtils.swift in Sources */,
 				49E3CCC51F47BBFB007A749B /* TableController.swift in Sources */,
+				49D090511F4A7CE600B06257 /* ModalView.swift in Sources */,
+				49D0904D1F4A7C9500B06257 /* Mapper.swift in Sources */,
+				49D0904F1F4A7CB400B06257 /* AlbumCell.swift in Sources */,
 				49E3CCB41F47B530007A749B /* ViewController.swift in Sources */,
 				49E3CCC81F48928A007A749B /* UIView+Anchors.swift in Sources */,
 				49E3CCB21F47B530007A749B /* AppDelegate.swift in Sources */,
+				49D0904B1F4A7C6E00B06257 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		49E3CCB51F47B530007A749B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				49E3CCB61F47B530007A749B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		49E3CCBA1F47B530007A749B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
